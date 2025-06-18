@@ -24,7 +24,8 @@ This project provides the **voice interface** for the main [**Convey**](https://
 pip install sounddevice numpy scipy requests fuzzywuzzy faster-whisper
 ```
 
-🚀 How to Run
+
+## 🧰 Usage
 To get the Convey Voice Assistant Interface up and running, follow these two simple steps:
 
 1. Start the Rasa Chatbot
