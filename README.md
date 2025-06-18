@@ -22,3 +22,8 @@ This project provides the **voice interface** for the main [**Convey**](https://
 
 ```bash
 pip install sounddevice numpy scipy requests fuzzywuzzy faster-whisper
+
+
+rasa run --enable-api
+
+python convey_voice_interface.py
