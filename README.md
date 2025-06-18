@@ -31,18 +31,18 @@ To get the Convey Voice Assistant Interface up and running, follow these two sim
 1. Start the Rasa Chatbot
 First, you need to launch your main Convey Rasa chatbot. Open your first terminal, navigate to your main Convey project directory, and run the Rasa server with the API enabled:
 
-Bash
 
-```rasa run --enable-api```
-
+```bash 
+rasa run --enable-api
+```
 This command will start the Rasa chatbot, which will be ready to process requests from the voice interface.
 
 2. Run the Voice Interface
 Next, open a second terminal. Navigate to the directory where this ```convey_voice_interface.py``` file is located. Then, execute the Python script:
 
-Bash
-
-```python convey_voice_interface.py```
+```bash
+python convey_voice_interface.py
+```
 
 
 Once the script starts, it will begin listening for your voice through your microphone. You can then start speaking to interact naturally with your Convey AI assistant!
